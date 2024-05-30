@@ -1,0 +1,16 @@
+[package]
+name = "ejs"
+version = "0.1.2"
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/i18n-site/ejs.git"
+homepage = "https://github.com/i18n-site/ejs/tree/dev"
+description = "tmpl"
+
+[dependencies]
+rustyscript = { version = "0.4.0", path = "../rustyscript", features = ["all"] }
+aok = "0.1.11"
+# deno_fs = "0.59.0"
+# deno_io = "0.59.0"
+
+[build-dependencies]
